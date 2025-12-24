@@ -17,7 +17,7 @@ Go to:
 1. Log in with your GitHub account.
 2. Click the green **Code** button.
 3. Select **Open with Codespaces** → **New codespace**.
-4. Wait while the environment builds. (First time may take 10–15 minutes.)
+4. Wait while the environment builds. (First time may take 10–1 minutes ... sometimes heaps more.)
 
 ---
 
@@ -27,7 +27,7 @@ In the terminal that opens, type:
 
 ```bash
 riscv64-unknown-elf-gcc --version
-spike --version
+spike
 iverilog -V
 ````
 
@@ -76,17 +76,17 @@ The following steps show how to use a full Linux desktop inside your Codespace a
 
 2. Look for the forwarded port named **noVNC Desktop (6080)**.
 
-3. Click the **Forwarded Address** link.
+3. Click the **Forwarded Address** link and click the little world sphere icon.
 
-   ![noVNC port](images/2.png)
+   ![noVNC port](images/1.png)
 
-4. A new browser tab opens with a directory listing. Click **`vnc_lite.html`**.
+4. A new browser tab opens with a directory listing. Click **`vnc.html`** and in the new browser tab click connect, or just click **`vnc_lite.html`**.
 
-   ![noVNC directory listing](images/3.png)
+   ![noVNC directory listing](images/2.png)
 
 5. The Linux desktop appears in your browser.
 
-   ![Desktop view](images/4.png)
+   ![Desktop view](images/3.png)
 
 ---
 
@@ -151,15 +151,15 @@ You will see the proxy kernel (`pk`) messages and then the program output.
 
 ---
 
-## Step 11. Edit the C Program Using gedit (GUI Editor)
+## Step 11. Edit the C Program Using vi (GUI Editor)
 
-To edit the program using a graphical editor:
+To edit the program using the vi editor:
 
 ```bash
-gedit sum1ton.c &
+vi sum1ton.c
 ```
 
-This opens `sum1ton.c` in **gedit** on the noVNC desktop.
+This opens `sum1ton.c` in **vi** on the noVNC desktop.
 
 ![gedit editing](images/8.png)
 
@@ -169,7 +169,7 @@ Make changes (for example, change `n = 9;` to another value), save the file, and
 riscv64-unknown-elf-gcc -o sum1ton.o sum1ton.c
 spike pk sum1ton.o
 ```
-
+![vi editing](images/9.png)
 ---
 
 You have now:
