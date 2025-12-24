@@ -180,8 +180,8 @@ You have now:
 * Launched a full Linux desktop inside GitHub Codespaces
 * Compiled and executed a C program with native GCC
 * Compiled and executed the same program on a RISC-V target using Spike
-* Edited and rebuilt the code using a GUI editor over noVNC
+* Edited and rebuilt the code using a editor over noVNC
 
-You’re ready to explore more RISC-V and Verilog labs in this Codespace.
+Explore more RISC-V and Verilog labs in this Codespace.
 
 
