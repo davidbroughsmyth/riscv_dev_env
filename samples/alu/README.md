@@ -26,7 +26,7 @@ vvp alu_v
 ```
 ![image](../../images/alu_verilog_run.png)
 
--- display gtkwave for ALU
+-- display gtkwave for ALU (needs X windows, do it in a VNC window)
 ```
 gtkwave.vcd
 ```
