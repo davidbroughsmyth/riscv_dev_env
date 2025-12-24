@@ -163,7 +163,7 @@ This opens `sum1ton.c` in **vi** on the noVNC desktop.
 
 ![vi editing](images/8.png)
 
-Make changes (for example, change `n = 9;` to another value), save the file, and re-run:
+Make changes (for example, change `n = 9;` to another value), save the file (esc x for vi), and re-run:
 
 ![vi editing](images/9.png)
 
