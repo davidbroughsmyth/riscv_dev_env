@@ -1,6 +1,6 @@
 ### C based 4bit ALU
 
-Using godbolt to show compilation and execution: https://godbolt.org/z/a9dv6Mrnf
+Using godbolt to show compilation and execution of RISC-V: https://godbolt.org/z/a9dv6Mrnf
 
 -- compile to risc-v
 ```
