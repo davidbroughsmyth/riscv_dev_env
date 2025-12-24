@@ -84,7 +84,7 @@ The following steps show how to use a full Linux desktop inside your Codespace a
 
    ![noVNC directory listing](images/2.png)
 
-5. The Linux desktop appears in your browser.
+5. The Linux desktop appears in your browser, then select a terminal from the bottom menu.
 
    ![Desktop view](images/3.png)
 
@@ -92,7 +92,7 @@ The following steps show how to use a full Linux desktop inside your Codespace a
 
 ## Step 7. Open a Terminal Inside the Desktop
 
-1. Right-click anywhere on the desktop background.
+1. Or right-click anywhere on the desktop background.
 2. Select **Open Terminal Here**.
 
    ![Open terminal here](images/4.png)
