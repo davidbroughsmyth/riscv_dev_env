@@ -161,7 +161,7 @@ vi sum1ton.c
 
 This opens `sum1ton.c` in **vi** on the noVNC desktop.
 
-![gedit editing](images/8.png)
+![vi editing](images/8.png)
 
 Make changes (for example, change `n = 9;` to another value), save the file, and re-run:
 
@@ -170,6 +170,7 @@ riscv64-unknown-elf-gcc -o sum1ton.o sum1ton.c
 spike pk sum1ton.o
 ```
 ![vi editing](images/9.png)
+![vi editing](images/10.png)
 ---
 
 You have now:
