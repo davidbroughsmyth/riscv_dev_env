@@ -151,7 +151,7 @@ You will see the proxy kernel (`pk`) messages and then the program output.
 
 ---
 
-## Step 11. Edit the C Program Using vi (GUI Editor)
+## Step 11. Edit the C Program Using vi  or any othere editor
 
 To edit the program using the vi editor:
 
@@ -165,11 +165,13 @@ This opens `sum1ton.c` in **vi** on the noVNC desktop.
 
 Make changes (for example, change `n = 9;` to another value), save the file, and re-run:
 
+![vi editing](images/9.png)
+
 ```bash
 riscv64-unknown-elf-gcc -o sum1ton.o sum1ton.c
 spike pk sum1ton.o
 ```
-![vi editing](images/9.png)
+
 ![vi editing](images/10.png)
 ---
 
