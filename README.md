@@ -182,6 +182,6 @@ You have now:
 * Compiled and executed the same program on a RISC-V target using Spike
 * Edited and rebuilt the code using a editor over noVNC
 
-Explore more RISC-V and Verilog labs in this Codespace.
+Explore with your own RISC-V and Verilog labs in this Codespace.
 
 
