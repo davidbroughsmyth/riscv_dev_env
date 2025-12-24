@@ -1,5 +1,5 @@
 
-# Getting Started with RISC-V on GitHub Codespaces
+# Getting Started with RISC-V and Verilog on GitHub Codespaces
 
 Follow the steps below to set up and run programs in your own Codespace.
 
